@@ -18,3 +18,6 @@ Terminal: Bash
 
 **Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead.
 Screenshots are great, copy-pasted terminal output is also great. Avoid saying “it doesn't work”.**
+
+
+I expected for my tests to run, I have two tests in ArrayTests.java but the output says only one runs and I'm not sure why.
