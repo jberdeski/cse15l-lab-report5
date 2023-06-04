@@ -19,5 +19,13 @@ Terminal: Bash
 **Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead.
 Screenshots are great, copy-pasted terminal output is also great. Avoid saying “it doesn't work”.**
 
+![bugs Ew](buggyTerminal.png)
 
 I expected for my tests to run, I have two tests in ArrayTests.java but the output says only one runs and I'm not sure why.
+
+**Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.**
+
+The terminal says that is is caused by multiple things such as; ClassNotFoundException, BuiltInClassLoader, etc. My class is correctly spelled in the command and my tests seem to be correct:
+![ArrayTests Code](arrayTestsCode.png)
+
+## Response
