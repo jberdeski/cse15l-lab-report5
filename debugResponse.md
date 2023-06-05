@@ -52,4 +52,6 @@ Then run the java command but with .java at the end of the class you are calling
 > like this: `java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ArrayTests.java`
 
 # Reflection 
-
+Something really interesting I learned this half of the quarter was .sh specifically how to write an automatic “grader”.
+While I never fully got it to work, I definitely think that it was interesting. The concept was new but allowed me to get a better insight to how my 
+code in other CSE classes got graded (especially on GradeScope). Also showed me how even if my code works one way it may not work the way it get's tested. 
