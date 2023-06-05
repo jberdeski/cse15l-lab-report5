@@ -36,3 +36,20 @@ Do you notice anything different about what you have and what is there?
 
 ## What Happened? 
 When you look at the code in the link provided you may have noticed that your issue was simply adding .java at the end of your java command. 
+
+![Bug Fixed](bugFixed.png)
+
+The javac command requires the .java part of files
+But the java command does not. This can often be forgotten or overlooked and that's when panic may occur.
+
+## Reconstructing the Bug
+For this specific example, the lab3 repository was used, but this issue can happen in any code that you try to compile. 
+Here there was 7 .java files within the lab3-main folder. 
+Since this issue was in the terminal, to cause it you just need to correctly run the javac command:
+> in this case `javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java`
+
+Then run the java command but with .java at the end of the class you are calling.
+> like this: `java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ArrayTests.java`
+
+# Reflection 
+
