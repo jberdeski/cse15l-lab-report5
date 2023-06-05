@@ -30,7 +30,7 @@ The terminal says that is is caused by multiple things such as; ClassNotFoundExc
 
 ## Response
 Interesting! You notice the errors and I agree that your class is spelled correctly in the command. The issue lies in the format of your java command. 
-Take a look at the commands here: [](https://ucsd-cse15l-s23.github.io/week/week3/#setup)
+Take a look at the commands here: [Lab3 Setup](https://ucsd-cse15l-s23.github.io/week/week3/#setup)
 
 Do you notice anything different about what you have and what is there?
 
